@@ -1,0 +1,74 @@
+main {
+    text-align: center;
+}
+
+#main-google {
+    margin-top: 110px;
+}
+
+#input {
+    margin: 20px auto 0 auto;
+    width: 580px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+}
+
+#input > * {
+    height: 45px;
+}
+
+#input span {
+    margin: 0 5px;
+}
+
+#input > input {
+    width: 85%;
+    border: none;
+}
+
+#input > input:focus {
+    outline: none;
+}
+
+img[src="google search icon.png"] {
+    width: 15px;
+    opacity: 0.5;
+    vertical-align: middle;
+}
+
+img[src="google microphone icon.png"] {
+    width: 25px;
+    vertical-align: middle;
+}
+
+#buttons {
+    width: 290px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+main button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+main div:last-child {
+    font-size: 13px;
+}
+
+main a {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+main a:hover {
+    text-decoration: underline;
+}

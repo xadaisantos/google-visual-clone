@@ -1,0 +1,43 @@
+header {
+    font-size: 13px;
+    place-items: center right;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header ul {
+    margin: 15px 15px 0 40%;
+    grid-template-columns: repeat(4, 1fr);
+    width: 200px;
+    place-items: center;
+}
+
+#squared-menu {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+}
+
+#squared-menu span {
+    width: 4px;
+    height: 4px;
+    background-color: #777;
+}
+
+#user-initial {
+    color: white;
+    background-color: #01579b;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-content: center;
+    font-weight: bold;
+    font-size: 15px;
+}
